@@ -1,0 +1,77 @@
+/* Estilo para o corpo do documento */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #96969628;
+}
+
+/* Estilo para o cabeçalho */
+header {
+    position: relative;
+    background-color: #003366;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+header {
+    background-image: url('/tmp/guest-b1zjbq/Área de Trabalho/eletiva/header.jpg');
+}
+
+/* Estilo para o conteúdo */
+.content {
+    padding: 20px;
+}
+
+/* Estilo para o rodapé */
+footer {
+    background-color: #003366;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .contact-info {
+    margin-right: auto;
+}
+
+footer .contact-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+footer .contact-list li {
+    margin-bottom: 5px;
+}
+
+footer .contact-list li a img {
+    width: 30px;
+    height: 30px;
+}
